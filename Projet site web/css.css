@@ -75,13 +75,13 @@ ul.menu {
 
 /* liste de menu */
 ul.menu li a  {   
-	position: relative;
+    position: relative;
     display: block;
     color: #000;
     padding: 8px 20px;
     text-decoration: none;
-	font-family: 'Titre2', Verdana;
-	font-size: 25px;
+    font-family: 'Titre2', Verdana;
+    font-size: 25px;
 }
 
 ul.menu li a.active {
@@ -197,7 +197,7 @@ select {
 }
 
 .Emma {
-	padding-left: 10px;
+	padding-left: 15px;
 }
 
 /* Prénom et Nom en italique pour la présentation des membres du projet */
