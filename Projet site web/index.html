@@ -21,29 +21,34 @@
 		</script>
 	
 		<!-- Menu présent sur la gauche du site --> 
-		<ul class="menu">
-			<li><a class="active" href="index.html">Accueil</a></li>
-			<li><a href="Telechargements.html">Telechargements</a></li>
-			<li><a href="Sites.html">Sites utiles</a></li>
-			<li><a href="Avis.html">Avis</a></li>
-		</ul>
-	
+			<ul class="menu">
+				<li><a class="active" href="index.html">Accueil</a></li>
+				<li><a href="Telechargements.html">Telechargements</a></li>
+				<li><a href="Sites.html">Sites utiles</a></li>
+				<li><a href="Avis.html">Avis</a></li>
+			</ul>
+		
 		<!-- Page html correspondant au menu accueil -->
 		<div style="margin-left:15%;padding:1px 16px;height:1000px;"  id="Accueil">
 		
+			<div id="Play">
+				<p class="style">Change de style ;)</p>
+				<button class="Change" onclick="swapStyleSheet('css.css')">Jour</button>
+				<button class="Change1" onclick="swapStyleSheet('css2.css')">Nuit</button>
+			</div>
+		
 			<h2 class="Titre1A">Bienvenue sur Seek'n'Play !</h2>
 			
-			<img class="Logo" src="images/Logo.png" alt="Icon Play" width="140" height="140">
-			<p class="style">Change de style ;)</p>
-			<button class="Change" onclick="swapStyleSheet('css.css')">Jour</button>
-			<button class="Change1" onclick="swapStyleSheet('css2.css')">Nuit</button>
+			<div>
+				<img class="Logo" src="images/Logo.png" alt="Icon Play" width="200" height="200">
+			</div>
 			
 			<h3 class="Titre2A">L'equipe du projet</h3>
 			
 				<ul class="flex-container">
 					<li class="flex-item">
+						<img src="images/Léo.jpg" alt="Léo VINCENT" width="310" height="330">
 						<em>Léo VINCENT</em>
-						<img src="images/Léo.jpg" alt="Léo VINCENT" width="340" height="390"> 
 						<p> 
 							Né le 25 mars 1999, Léo habite actuellement à Salon de Provence, et vient
 							tous les matins en bus !
@@ -56,8 +61,8 @@
 					</li>
 					
 					<li class="flex-item"> 
+						<img src="images/Antoine.jpg" alt="Antoine ZOMBRALIS" width="235" height="335">
 						<em>Antoine ZOMBRALIS</em> 
-						<img src="images/Antoine.jpg" alt="Antoine ZOMBRALIS" width="290" height="390"> 
 						<p> 
 							Né le 11 septembre 2000, Antoine fait parti des plus jeunes de la promo !
 							Il habite actuellement à Annoeullin ( Comment ? )... Oui en faite, il s'agit
@@ -72,8 +77,8 @@
 				
 				<ul class="flex-container">
 					<li class="flex-item"> 
+						<img src="images/Nicolas.jpg" alt="Nicolas ROHRBACH" width="320" height="370">
 						<em>Nicolas ROHRBACH</em>
-						<img src="images/Nicolas.jpg" alt="Nicolas ROHRBACH" width="340" height="390">
 						<p> 
 							Né le 26 juin 1998... Ah ! lui fait parti des plus âgés de la promo, contrairement 
 							à son ami plus haut ! En effet, Antoine et Nicolas s'entendent très bien, tellement 
@@ -88,8 +93,8 @@
 					</li>
 					
 					<li class="flex-item"> 
+						<img src="images/Théo.jpg" alt="Théo POUJOL" width="325" height="375"> 
 						<em>Théo Poujol</em>
-						<img src="images/Théo.jpg" alt="Théo POUJOL" width="340" height="390"> 
 						<p> 
 							Théo est né le 27 novembre 1999 et est originaire de Marseille !
 							Il vit actuellement à Carry-le-Rouet. C'est un garçon plutôt calme qui aime le football et jouer
@@ -103,10 +108,12 @@
 					</li>
 				</ul>
 				
+				<div id="space80"></div>
+				
 				<ul class="flex-container">
 					<li class="flex-item1"> 
+						<img src="images/Emma.jpg" alt="Emma TARFI" width="320" height="370"> 
 						<em class="Emma">Emma TARFI</em>
-						<img src="images/Emma.jpg" alt="Emma TARFI" width="340" height="390"> 
 						<p> 
 							Et puis il y a moi ! Je suis née le 20 janvier 1999 à Aix-en-Provence et je vis actuellement
 							chez mes parents aux Milles. Et je suis la seule fille de l'équipe ! En même temps on est pas 
@@ -121,6 +128,7 @@
 					</li>
 				</ul>
 				
+			<div id="space80"></div>	
 			
 			<h3 class="Titre2A">Presentation du projet tuteure</h3>
 				<p> 
