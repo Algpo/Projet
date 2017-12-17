@@ -1,0 +1,58 @@
+body {
+	background-color: Black; 
+	color: white;
+}
+
+ul.menu {
+    background-color: black;
+	color: white;
+}
+
+
+ul.menu li a.active, ul.menu li a:hover:not(.active) {
+    background-color: rgba(240, 240, 240, 0.6);
+	color: white;
+}
+
+ul.menu li a {
+	color: white;
+}
+
+.Titre1A {   
+	border: 5px solid White;
+}
+
+.Titre2A, .Titre3A {
+	color: rgba(255, 0, 0, 0.7);
+}
+
+em {
+	color: Gray;
+	text-shadow: 4px 3px rgba(240, 240, 240, 0.2);
+}
+
+footer, footer.Telechargements, footer.Site, footer.Avis { 
+	background-color: black;
+}
+
+#T {
+	color: rgba(255, 0, 0, 0.7);
+}
+
+nav.T1, li a.T1 {
+	color: White;
+}
+
+li a:hover.T1 {
+	background-color: Lightgray;
+	color: Gray;
+}
+
+#Telechargements {
+	background-image: url(images/Téléchargement.jpg);
+	background-repeat: no-repeat;
+	background-position: center 20%;
+	
+}
+
+	
